@@ -1,0 +1,2 @@
+# Entropy-DCNN
+These scripts contain the Go player ‘Entropy’ and its policy net (around 7k KGS) as well as supplementary scripts for training this network and similar networks. It also contains RL learning for the policy network which currently is very slow. And a value network which currently overfits for the same reason as the RL. Finally there is a merged network "meta net" which trains both a value and policy network quite succesfully and i would love to see this play with a MCTS agent. 
